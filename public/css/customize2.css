@@ -1,0 +1,248 @@
+@media (min-width: 320px) and (max-width: 540px) {
+    body{
+        min-height:100%;/* make sure it is at least as tall as the viewport */
+        position:relative;
+    }
+
+    .welcome-row{
+        margin: 3%;
+    }
+    .text-category{
+        font-size: 10px;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 4px;
+        padding: 6px;
+        cursor: context-menu;
+    }
+
+    .text-pro{
+        font-size: 8px;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        padding: 1px;
+        cursor: pointer;
+    }
+    
+    .ip-margin{
+        padding:0;
+    }
+
+    .text-pro a{
+        color: #fff;
+    }
+    .hide-with-small{
+        display: none;
+    }
+    
+    .banner-image{
+        height: 195px!important
+    }
+    
+    h1{
+        font-size: 26px;
+    }
+    
+    .table-header{
+        font-size:10px;
+    }
+    
+    .table-content{
+        font-size:8px;
+    }
+    
+    .table-content h4{
+        margin-top: 0px;
+    }
+    .table-content .alert{
+        padding: 2px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 768px) {
+    body{
+        min-height:100%;/* make sure it is at least as tall as the viewport */
+        position:relative;
+    }
+
+    .welcome-row{
+        margin: 3%;
+    }
+    .text-category{
+        font-size: 24px;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 4px;
+        padding: 6px;
+        cursor: context-menu;
+    }
+
+    .text-pro{
+        font-size: 16px;
+        border: 1px solid #fff;
+        border-radius: 3px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .ip-margin{
+        padding:0;
+    }
+
+    .text-pro a{
+        color: #fff;
+    }
+    
+    .hide-with-small{
+        display: none;
+    }
+    
+    .banner-image{
+        height: 195px!important
+    }
+    
+    h1{
+        font-size: 26px;
+    }
+    
+    .table-header{
+        font-size:10px;
+    }
+    
+    .table-content{
+        font-size:8px;
+    }
+    
+    .table-content h4{
+        margin-top: 0px;
+    }
+    .table-content .alert{
+        padding: 2px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body{
+        min-height:100%;/* make sure it is at least as tall as the viewport */
+        position:relative;
+    }
+
+    .welcome-row{
+        margin: 3%;
+    }
+    .text-category{
+        font-size: 28px;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 4px;
+        padding: 6px;
+        cursor: context-menu;
+    }
+    
+    .banner-image{
+        height: 260px!important;
+    }
+
+    .text-pro{
+        font-size: 18px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .text-pro a{
+        color: #fff;
+    }
+}
+@media (min-width: 992px) and (max-width: 1040px) {
+    body{
+        min-height:100%;/* make sure it is at least as tall as the viewport */
+        position:relative;
+    }
+
+    .welcome-row{
+        margin: 3%;
+    }
+    .text-category{
+        font-size: 32px;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 4px;
+        padding: 6px;
+        cursor: context-menu;
+    }
+
+    .text-pro{
+        font-size: 22px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    
+    .banner-image{
+        height: 300px!important;
+    }
+
+    .text-pro a{
+        color: #fff;
+    }
+}
+@media (min-width: 1040px) and (max-width: 1280px){
+    body{
+        min-height:100%;/* make sure it is at least as tall as the viewport */
+        position:relative;
+    }
+
+    .welcome-row{
+        margin: 3%;
+    }
+    .text-category{
+        font-size: 36px;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 4px;
+        padding: 6px;
+        cursor: context-menu;
+    }
+
+    .text-pro{
+        font-size: 28px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .text-pro a{
+        color: #fff;
+    }
+}
+
+@media (min-width: 1280px){    
+
+    .welcome-row{
+        margin: 3%;
+    }
+    .text-category{
+        font-size: 36px;
+        color: #fff;
+        border: 1px solid;
+        border-radius: 4px;
+        padding: 6px;
+        cursor: context-menu;
+    }
+
+    .text-pro{
+        font-size: 28px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .text-pro a{
+        color: #fff;
+    }
+}

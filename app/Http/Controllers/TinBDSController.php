@@ -39,7 +39,6 @@ class TinBDSController extends Controller
      */
     public function create()
     {
-        dd(1);
         $loaibdss = Loaibds::pluck('name', 'id');
         $tinhs = Tinh::pluck('name', 'id');
         $huyens = DB::table('huyens')->where('tinh_id','=','1')->pluck('name', 'id'); //Loaibds::pluck('name', 'id');
@@ -95,10 +94,12 @@ class TinBDSController extends Controller
         $user = \Auth::user();
         //dd($user->email);
         // send email thông báo đăng tin thành công
+        /*
         Mail::send('emails.thongbaodangtinbanthanhcong', [], function($message) use ($user) {
             $message->from('admin@chodatso.com', 'chodatso.com');
             $message->to($user->email)->subject('Thông báo từ chodatso.com');
         });
+        */
 
         // sending back with error message.
         \Session::flash('error', 'Hệ thống cần Quý khách cung cấp thêm thông tin về quyền sử dụng đất và chứng minh thư! Xin vui lòng hoàn thiện như email hệ thống gửi cho Quý khách! Xin chân thành cảm ơn!');

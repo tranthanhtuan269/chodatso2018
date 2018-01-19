@@ -188,7 +188,7 @@
  
   <!-- catg header banner section -->
   <section id="aa-catg-head-banner" class="banner-image">
-    <form class="form-horizontal col-sm-offset-1 col-sm-4 hide-with-small" style="border-radius: 6px;padding-top: 8px;margin-top: 5px;background: rgba(255,255,255,0.5);" action="{{URL::to('/')}}/timkiemnguoimua" method="post">
+    <form class="form-horizontal col-sm-offset-1 col-sm-4 hide-with-small" style="border-radius: 6px;padding-top: 8px;margin-top: 5px;background: rgba(255,255,255,0.5);" action="{{URL::to('/')}}/tim-kiem-nguoi-mua" method="post">
       <input type="hidden" name="_token" value="{{ csrf_token() }}">
       <div class="form-group">
         <label for="loaibds" class="col-sm-5 control-label">Loại BĐS</label>

@@ -104,7 +104,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/price-policy', 'ActionController@pricepolicy');
     Route::get('/privacy-policy', 'ActionController@privacypolicy');
     Route::get('/questions-and-answers', 'ActionController@questionsandanswers');
-    Route::get('/nganluong_d62bafcde7c1225038e4c17973210c22.html','ActionController@nganluongactive');
+    Route::get('/nganluong_62ab3d3e82e67b28516d2c364d4f151b.html','ActionController@nganluongactive');
     Route::get('/payment_success', 'ActionController@thanhtoanthanhcong');
     Route::get('/google2fa952a6c07ee729.html', 'ActionController@googleSearch');
     
